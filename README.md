@@ -1,6 +1,5 @@
 # dzikr
-
-Bacaan Dzikir dalam aplikasi
+Aplikasi ini berisi bacaan Dzikir pagi dan petang, Dzikir setelah sholat, Hadits Arbain, dan Al-Quran
 
 ## Getting Started
 
