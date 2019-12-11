@@ -1,0 +1,55 @@
+name: dzikr
+description: Bacaan Dzikir dalam aplikasi
+
+version: 1.0.6+10
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.5.0
+  auto_size_text: ^2.1.0
+  sqflite: ^1.1.7+2
+  share: ^0.6.3+1
+  sticky_headers: ^0.1.8
+  shared_preferences: ^0.5.4+5
+  geolocator: ^5.1.5
+  youtube_player: ^3.5.0
+  newsapi_client: ^0.2.5+2
+  flushbar: ^1.9.0
+  flutter_local_notifications: ^0.8.4
+  provider: ^3.1.0
+  vibration: 1.2.1
+  rflutter_alert: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^0.5.2
+  build_runner: ^1.7.1
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Uthmanic
+      fonts:
+        - asset: fonts/UthmanicHafs1Ver09.otf
+
+    - family: Indonesia
+      fonts:
+        - asset: fonts/Indonesia.otf
+
+    - family: Basmalah
+      fonts:
+        - asset: fonts/Basmalah.ttf
+  assets:
+    - db/quran.db
+    - images/ayat2.png
+    - images/top.png
+    - images/left.png
+    - images/right.png
