@@ -1,6 +1,9 @@
 # dzikr
 Aplikasi ini berisi bacaan Dzikir pagi dan petang, Dzikir setelah sholat, Hadits Arbain, dan Al-Quran
 
+View on google play
+https://play.google.com/store/apps/details?id=com.hasanta.studio.dzikr
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
